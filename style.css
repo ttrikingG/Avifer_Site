@@ -1,0 +1,107 @@
+		@font-face{
+			font-family:'Times New Roman', Times, serif;
+			src: url();
+		}
+		
+		body{
+			background:#f0ec18;
+			font-family:'Times New Roman', Times, serif;
+		}
+		
+		#divlogo{
+			display:flex;
+			justify-content:center;
+		}
+		
+		#h2logo{
+			font-size:12px;
+			text-align:left;
+			padding:-2%;
+		}
+		
+		#fi{ max-width:100%;
+		}
+
+		nav{
+			background-color:#2e412a;
+			margin-top:-2%;
+			padding:0%;
+			text-align:center;  
+        }
+
+        nav ul li{
+			display:inline;
+			margin:1%;
+			font-size:22px;          
+        }
+	
+    	nav a{
+			color:#ffee00;
+			text-decoration: none;
+			display: inline-block;
+			padding: 20px;
+			transition: background .3s;
+        }
+             	
+       	nav a:hover{
+			background-color:#ff0000;	
+        }
+
+		header{
+			height: 150px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		header h1{
+			font-family: monospace;
+			font-size: 3rem;
+			font-weight: 900;
+			color: black;}
+
+		.gallery-container{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+			gap: 2vw;
+			padding: 0 2vw;
+		}
+			
+		.gallery-itens{
+			width:340px;
+			height:340px;
+			
+			box-shadow: 5px 5px 5px rgb(0, 0, 0);
+			flex-grow: 0.5;
+			transition: transform .1s linear;
+		}
+			
+		.gallery-itens img{
+			width:100%;
+			height:100%;
+			object-fit: cover;
+		}
+			
+		.gallery-itens:hover{
+			transform: scale(1.2);
+		}
+                
+        #conteudo{
+            background-color:none;
+            max-width:80%;
+            margin:auto;
+            text-align:center;
+            margin-top:2%;
+        }
+                            
+		footer{
+			background-color:#2e412a;
+			text-align:center;
+			color:#ffee00;
+			padding:3%;
+			margin-top:1%;
+        }
+                
+	
+			
